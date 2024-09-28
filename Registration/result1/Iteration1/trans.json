@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "01_OpenWebTours",
+        "rawStartTime": 1727534279276,
+        "rawEndTime": 1727534279509
+    },
+    {
+        "transactionName": "02_ClickSignup",
+        "rawStartTime": 1727534279540,
+        "rawEndTime": 1727534279648
+    },
+    {
+        "transactionName": "03_SendRegInfo",
+        "rawStartTime": 1727534279663,
+        "rawEndTime": 1727534279758
+    },
+    {
+        "transactionName": "04_LoginAfterReg",
+        "rawStartTime": 1727534279789,
+        "rawEndTime": 1727534279916
+    },
+    {
+        "transactionName": "UC6_Register",
+        "rawStartTime": 1727534279260,
+        "rawEndTime": 1727534279931
+    }
+]

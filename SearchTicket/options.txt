@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Anton\Documents\VuGen\Scripts\SearchTicket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\anton\documents\vugen\scripts\searchticket\\logfile.log
+c:\users\anton\documents\vugen\scripts\searchticket\\combined_SearchTicket.c
+c:\users\anton\documents\vugen\scripts\searchticket\\pre_cci.c

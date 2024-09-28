@@ -1,0 +1,26 @@
+[
+    {
+        "stepId": "STEP37",
+        "stepName": "Url: WebTours",
+        "infFile": "t1.inf",
+        "time": 1727534285761
+    },
+    {
+        "stepId": "STEP38",
+        "stepName": "Url: login.pl",
+        "infFile": "t2.inf",
+        "time": 1727534285901
+    },
+    {
+        "stepId": "STEP39",
+        "stepName": "Submit Form: login.pl_2",
+        "infFile": "t3.inf",
+        "time": 1727534286025
+    },
+    {
+        "stepId": "STEP40",
+        "stepName": "Image: button_next.gif",
+        "infFile": "t4.inf",
+        "time": 1727534286201
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "01_OpenWebTours",
+        "rawStartTime": 1727550768496,
+        "rawEndTime": 1727550768856
+    },
+    {
+        "transactionName": "02_Login",
+        "rawStartTime": 1727550768872,
+        "rawEndTime": 1727550769046
+    },
+    {
+        "transactionName": "03_OpenBills",
+        "rawStartTime": 1727550769078,
+        "rawEndTime": 1727550769248
+    },
+    {
+        "transactionName": "04_DelBill",
+        "rawStartTime": 1727550769264,
+        "rawEndTime": 1727550769390
+    },
+    {
+        "transactionName": "UC5_DelSel",
+        "rawStartTime": 1727550768480,
+        "rawEndTime": 1727550769405
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "01_OpenWebTours",
+        "rawStartTime": 1727551835482,
+        "rawEndTime": 1727551835778
+    },
+    {
+        "transactionName": "02_Login",
+        "rawStartTime": 1727551835794,
+        "rawEndTime": 1727551836122
+    },
+    {
+        "transactionName": "03_OpenFlights",
+        "rawStartTime": 1727551836137,
+        "rawEndTime": 1727551836465
+    },
+    {
+        "transactionName": "04_SearchFlights",
+        "rawStartTime": 1727551836481,
+        "rawEndTime": 1727551836775
+    },
+    {
+        "transactionName": "05_SelectFlight",
+        "rawStartTime": 1727551836808,
+        "rawEndTime": 1727551837044
+    },
+    {
+        "transactionName": "06_PayForFlight",
+        "rawStartTime": 1727551837076,
+        "rawEndTime": 1727551837310
+    },
+    {
+        "transactionName": "UC3_BillTicket",
+        "rawStartTime": 1727551835466,
+        "rawEndTime": 1727551837326
+    }
+]

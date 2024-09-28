@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "01_OpenWebTours",
+        "rawStartTime": 1727551549815,
+        "rawEndTime": 1727551550033
+    },
+    {
+        "transactionName": "02_Login",
+        "rawStartTime": 1727551550049,
+        "rawEndTime": 1727551550207
+    },
+    {
+        "transactionName": "03_OpenFlights",
+        "rawStartTime": 1727551550223,
+        "rawEndTime": 1727551550411
+    },
+    {
+        "transactionName": "04_SearchFlights",
+        "rawStartTime": 1727551550426,
+        "rawEndTime": 1727551550585
+    },
+    {
+        "transactionName": "UC2_SearchFlightScript",
+        "rawStartTime": 1727551549800,
+        "rawEndTime": 1727551550600
+    }
+]
