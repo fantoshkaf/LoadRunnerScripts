@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC4_ViewBills__*delimiter*__01_OpenWebTours__*delimiter*__02_Login__*delimiter*__03_OpenBills"
+Order="UC4_ViewBills__*delimiter*__01_OpenWebTours__*delimiter*__02_Login__*delimiter*__03_OpenBills__*delimiter*__03_Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -62,3 +62,4 @@ UC4_ViewBills=
 01_OpenWebTours=
 02_Login=
 03_OpenBills=
+03_Logout=

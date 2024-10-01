@@ -143,7 +143,17 @@ web_submit_form("reservations.pl_2",
 		LAST);
 
 	lr_end_transaction("06_PayForFlight",LR_AUTO);
+	lr_end_transaction("07_Login",LR_AUTO);
 
+	web_reg_find("Text=Welcome to the Web Tours site.",LAST);
+	lr_start_transaction("03_Logout");
+
+	web_image("SignOff Button", 
+		"Alt=SignOff Button", 
+		"Snapshot=t4.inf", 
+		LAST);
+
+	lr_end_transaction("07_Logout",LR_AUTO);
 	lr_end_transaction("UC3_BillTicket",LR_AUTO);
 
 	return 0;
