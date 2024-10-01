@@ -1,2 +1,0 @@
-"userSession=139939.392790603HVQiVDcpfVzzzzzHtDViipHQfV&username=user1&password=password1&JSFor"
-"mSubmit=off"

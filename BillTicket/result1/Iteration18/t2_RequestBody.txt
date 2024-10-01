@@ -1,2 +1,0 @@
-"userSession=139939.388821385HVQiVDcpDVcftDViipHQDiHf&username=user1&password=password1&JSFormS"
-"ubmit=off"

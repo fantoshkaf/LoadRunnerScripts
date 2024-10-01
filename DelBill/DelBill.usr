@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC5_DelSel__*delimiter*__01_OpenWebTours__*delimiter*__02_Login__*delimiter*__03_OpenBills__*delimiter*__04_DelBill__*delimiter*__03_Logout"
+Order="UC5_DelSel__*delimiter*__01_OpenWebTours__*delimiter*__02_Login__*delimiter*__03_OpenBills__*delimiter*__04_DelBill__*delimiter*__05_Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -63,4 +63,4 @@ UC5_DelSel=
 02_Login=
 03_OpenBills=
 04_DelBill=
-03_Logout=
+05_Logout=

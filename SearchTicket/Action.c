@@ -19,7 +19,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t2.inf", 
+		"Snapshot=t16.inf", 
 		"Mode=HTML", 
 		LAST);
 
@@ -36,7 +36,7 @@ Action()
 
 	
 	web_submit_form("login.pl", 
-		"Snapshot=t3.inf", 
+		"Snapshot=t17.inf", 
 		ITEMDATA, 
 		"Name=username", "Value={login}", ENDITEM, 
 		"Name=password", "Value={password}", ENDITEM, 
@@ -57,7 +57,7 @@ Action()
 	web_reg_find("Text=\<td align\=\"left\"\>Departure City :\</td> \<td\>\<select name\=\"depart\" \>",LAST);
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
-		"Snapshot=t3.inf", 
+		"Snapshot=t18.inf", 
 		LAST);
 
 	lr_end_transaction("03_OpenFlights",LR_AUTO);
@@ -67,13 +67,12 @@ Action()
 	web_add_header("Origin", 
 		"http://localhost:1080");
  	lr_save_string(lr_paramarr_random("Cities"),"DepCity");
- 	
-do {
-    lr_save_string(lr_paramarr_random("Cities"), "ArrCity");
-} while (strcmp(lr_eval_string("{DepCity}"), lr_eval_string("{ArrCity}")) == 0);
+	do {
+    	lr_save_string(lr_paramarr_random("Cities"), "ArrCity");
+	} while (strcmp(lr_eval_string("{DepCity}"), lr_eval_string("{ArrCity}")) == 0);
 	web_reg_find("Text=Flight departing from <B>{DepCity}</B> to <B>{ArrCity}</B> on <B>{depDate}</B>",LAST);
 	web_submit_form("reservations.pl",
-		"Snapshot=t4.inf",
+		"Snapshot=t19.inf",
 		ITEMDATA,
 		"Name=depart", "Value={DepCity}", ENDITEM,
 		"Name=departDate", "Value={depDate}", ENDITEM,
@@ -88,11 +87,10 @@ do {
 		LAST);
 
 	lr_end_transaction("04_SearchFlights",LR_AUTO);
-	lr_end_transaction("05_Login",LR_AUTO);
 
+
+	lr_start_transaction("05_Logout");
 	web_reg_find("Text=Welcome to the Web Tours site.",LAST);
-	lr_start_transaction("03_Logout");
-
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
 		"Snapshot=t4.inf", 

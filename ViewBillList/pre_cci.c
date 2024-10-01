@@ -2657,6 +2657,16 @@ Action()
 
 	lr_end_transaction("03_OpenBills",2);
 
+
+
+	lr_start_transaction("04_Logout");
+	web_reg_find("Text=Welcome to the Web Tours site.","LAST");
+	web_image("SignOff Button", 
+		"Alt=SignOff Button", 
+		"Snapshot=t4.inf", 
+		"LAST");
+
+	lr_end_transaction("04_Logout",2);
 	lr_end_transaction("UC4_ViewBills",2);
 
 	return 0;

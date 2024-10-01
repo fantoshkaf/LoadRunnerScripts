@@ -44,9 +44,9 @@ Action()
 
 	lr_end_transaction("02_Login",LR_AUTO);
 
-	web_reg_find("Text=Welcome to the Web Tours site.",LAST);
-	lr_start_transaction("03_Logout");
 
+	lr_start_transaction("03_Logout");
+	web_reg_find("Text=Welcome to the Web Tours site.",LAST);
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
 		"Snapshot=t4.inf", 

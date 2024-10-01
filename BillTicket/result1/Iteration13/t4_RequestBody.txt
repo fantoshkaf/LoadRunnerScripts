@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Portland&departDate=09%2F29%2F2024&arrive=San+Francisco&returnDate=%7"
-"BretDate%7D&numPassengers=1&seatPref=Window&seatType=First&.cgifields=roundtrip&.cgifields=sea"
-"tType&.cgifields=seatPref&findFlights.x=83&findFlights.y=16"

@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC6_Register__*delimiter*__01_OpenWebTours__*delimiter*__02_ClickSignup__*delimiter*__03_SendRegInfo__*delimiter*__04_LoginAfterReg__*delimiter*__03_Logout"
+Order="UC6_Register__*delimiter*__01_OpenWebTours__*delimiter*__02_ClickSignup__*delimiter*__03_SendRegInfo__*delimiter*__04_LoginAfterReg__*delimiter*__05_Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -63,4 +63,4 @@ UC6_Register=
 02_ClickSignup=
 03_SendRegInfo=
 04_LoginAfterReg=
-03_Logout=
+05_Logout=

@@ -1,2 +1,0 @@
-"userSession=139939.387444309HVQiVDcpctVzzzzHtDViipHQDtf&username=user1&password=password1&JSFo"
-"rmSubmit=off"

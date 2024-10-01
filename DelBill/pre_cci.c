@@ -2676,6 +2676,17 @@ Action()
 		"Name=removeFlights.y", "Value=1", "ENDITEM", 
 		"LAST");
 	lr_end_transaction("04_DelBill", 2);
+
+
+	web_reg_find("Text=Welcome to the Web Tours site.","LAST");
+	lr_start_transaction("05_Logout");
+
+	web_image("SignOff Button", 
+		"Alt=SignOff Button", 
+		"Snapshot=t4.inf", 
+		"LAST");
+
+	lr_end_transaction("05_Logout",2);
 	lr_end_transaction("UC5_DelSel", 2);
 
 

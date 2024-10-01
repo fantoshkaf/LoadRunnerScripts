@@ -1,22 +1,27 @@
 [
     {
         "transactionName": "01_OpenWebTours",
-        "rawStartTime": 1727552151940,
-        "rawEndTime": 1727552152164
+        "rawStartTime": 1727803946564,
+        "rawEndTime": 1727803946796
     },
     {
         "transactionName": "02_Login",
-        "rawStartTime": 1727552152179,
-        "rawEndTime": 1727552152338
+        "rawStartTime": 1727803946810,
+        "rawEndTime": 1727803947025
     },
     {
         "transactionName": "03_OpenBills",
-        "rawStartTime": 1727552152354,
-        "rawEndTime": 1727552152685
+        "rawStartTime": 1727803947040,
+        "rawEndTime": 1727803947408
+    },
+    {
+        "transactionName": "04_Logout",
+        "rawStartTime": 1727803947423,
+        "rawEndTime": 1727803947548
     },
     {
         "transactionName": "UC4_ViewBills",
-        "rawStartTime": 1727552151925,
-        "rawEndTime": 1727552152701
+        "rawStartTime": 1727803946548,
+        "rawEndTime": 1727803947564
     }
 ]
