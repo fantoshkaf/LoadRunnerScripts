@@ -1,4 +1,4 @@
-# 1 "c:\\users\\anton\\documents\\vugen\\scripts\\delbill\\\\combined_DelBill.c"
+# 1 "c:\\users\\anton\\desktop\\loadrunnerscripts-main\\delbill\\\\combined_DelBill.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\anton\\documents\\vugen\\scripts\\delbill\\\\combined_DelBill.c" 2
+# 1 "c:\\users\\anton\\desktop\\loadrunnerscripts-main\\delbill\\\\combined_DelBill.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\anton\\documents\\vugen\\scripts\\delbill\\\\combined_DelBill.c" 2
+# 2 "c:\\users\\anton\\desktop\\loadrunnerscripts-main\\delbill\\\\combined_DelBill.c" 2
 
 # 1 "globals.h" 1
 
@@ -2584,14 +2584,14 @@ void
  
 
 
-# 3 "c:\\users\\anton\\documents\\vugen\\scripts\\delbill\\\\combined_DelBill.c" 2
+# 3 "c:\\users\\anton\\desktop\\loadrunnerscripts-main\\delbill\\\\combined_DelBill.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\anton\\documents\\vugen\\scripts\\delbill\\\\combined_DelBill.c" 2
+# 4 "c:\\users\\anton\\desktop\\loadrunnerscripts-main\\delbill\\\\combined_DelBill.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2663,17 +2663,6 @@ Action()
     	lr_save_string(lr_paramarr_random("c_cgifields"),"c_rand");
 
 		lr_param_sprintf("c_buffer", "%s%d=on&", lr_eval_string("{c_buffer}"), atoi(lr_eval_string("{c_rand}")));
-
-    }
-
-
-    
-
-
-
-
-    for (i=1;i<=atoi(lr_eval_string("{c_flightids_count}"));i++)
-    {
         lr_param_sprintf("c_buffer",
         "%sflightID=%s&",
         lr_eval_string("{c_buffer}"),
@@ -2686,6 +2675,13 @@ Action()
         lr_paramarr_idx("c_cgifields",
         i));
     }
+
+
+
+   
+
+
+
 
 
     lr_save_string(lr_eval_string("{c_buffer}removeFlights.x=57&removeFlights.y=10&"), "c_wcr");
@@ -2724,12 +2720,12 @@ Action()
 
     return 0;
 }
-# 5 "c:\\users\\anton\\documents\\vugen\\scripts\\delbill\\\\combined_DelBill.c" 2
+# 5 "c:\\users\\anton\\desktop\\loadrunnerscripts-main\\delbill\\\\combined_DelBill.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\anton\\documents\\vugen\\scripts\\delbill\\\\combined_DelBill.c" 2
+# 6 "c:\\users\\anton\\desktop\\loadrunnerscripts-main\\delbill\\\\combined_DelBill.c" 2
 

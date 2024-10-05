@@ -67,13 +67,6 @@ Action()
     	lr_save_string(lr_paramarr_random("c_cgifields"),"c_rand");
 
 		lr_param_sprintf("c_buffer", "%s%d=on&", lr_eval_string("{c_buffer}"), atoi(lr_eval_string("{c_rand}")));
-
-    }
-
-
-
-    for (i=1;i<=atoi(lr_eval_string("{c_flightids_count}"));i++)
-    {
         lr_param_sprintf("c_buffer",
         "%sflightID=%s&",
         lr_eval_string("{c_buffer}"),
@@ -86,6 +79,8 @@ Action()
         lr_paramarr_idx("c_cgifields",
         i));
     }
+
+
 
 
     lr_save_string(lr_eval_string("{c_buffer}removeFlights.x=57&removeFlights.y=10&"), "c_wcr");
