@@ -1,26 +1,32 @@
 [
     {
-        "stepId": "STEP33",
+        "stepId": "STEP41",
         "stepName": "Url: WebTours",
         "infFile": "t1.inf",
-        "time": 1727534285064
+        "time": 1727804939213
     },
     {
-        "stepId": "STEP34",
+        "stepId": "STEP42",
         "stepName": "Url: login.pl",
         "infFile": "t2.inf",
-        "time": 1727534285198
+        "time": 1727804939357
     },
     {
-        "stepId": "STEP35",
+        "stepId": "STEP43",
         "stepName": "Submit Form: login.pl_2",
         "infFile": "t3.inf",
-        "time": 1727534285320
+        "time": 1727804939475
     },
     {
-        "stepId": "STEP36",
+        "stepId": "STEP44",
         "stepName": "Image: button_next.gif",
         "infFile": "t4.inf",
-        "time": 1727534285493
+        "time": 1727804939649
+    },
+    {
+        "stepId": "STEP45",
+        "stepName": "Image: SignOff Button",
+        "infFile": "t5.inf",
+        "time": 1727804939786
     }
 ]

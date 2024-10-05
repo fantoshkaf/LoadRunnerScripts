@@ -2673,6 +2673,16 @@ Action()
 
 	lr_end_transaction("04_LoginAfterReg",2);
 
+
+
+	lr_start_transaction("05_Logout");
+	web_reg_find("Text=Welcome to the Web Tours site.","LAST");
+	web_image("SignOff Button", 
+		"Alt=SignOff Button", 
+		"Snapshot=t4.inf", 
+		"LAST");
+
+	lr_end_transaction("05_Logout",2);
 	lr_end_transaction("UC6_Register",2);
 
 	return 0;

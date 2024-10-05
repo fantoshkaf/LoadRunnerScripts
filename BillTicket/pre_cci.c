@@ -2637,8 +2637,8 @@ Action()
 	web_submit_form("login.pl", 
 		"Snapshot=t17.inf", 
 		"ITEMDATA", 
-		"Name=username", "Value={login}", "ENDITEM", 
-		"Name=password", "Value={password}", "ENDITEM", 
+		"Name=username", "Value=user1", "ENDITEM", 
+		"Name=password", "Value=pass1234", "ENDITEM", 
 		"LAST");
 
 	lr_end_transaction("02_Login",2);
@@ -2744,9 +2744,9 @@ web_submit_form("reservations.pl_2",
 	lr_end_transaction("06_PayForFlight",2);
 
 
-	web_reg_find("Text=Welcome to the Web Tours site.","LAST");
-	lr_start_transaction("07_Logout");
 
+	lr_start_transaction("07_Logout");
+	web_reg_find("Text=Welcome to the Web Tours site.","LAST");
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
 		"Snapshot=t4.inf", 

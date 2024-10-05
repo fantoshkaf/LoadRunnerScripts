@@ -1,27 +1,32 @@
 [
     {
         "transactionName": "01_OpenWebTours",
-        "rawStartTime": 1727534284197,
-        "rawEndTime": 1727534284366
+        "rawStartTime": 1727804938201,
+        "rawEndTime": 1727804938373
     },
     {
         "transactionName": "02_ClickSignup",
-        "rawStartTime": 1727534284397,
-        "rawEndTime": 1727534284509
+        "rawStartTime": 1727804938404,
+        "rawEndTime": 1727804938516
     },
     {
         "transactionName": "03_SendRegInfo",
-        "rawStartTime": 1727534284526,
-        "rawEndTime": 1727534284632
+        "rawStartTime": 1727804938532,
+        "rawEndTime": 1727804938644
     },
     {
         "transactionName": "04_LoginAfterReg",
-        "rawStartTime": 1727534284664,
-        "rawEndTime": 1727534284804
+        "rawStartTime": 1727804938676,
+        "rawEndTime": 1727804938815
+    },
+    {
+        "transactionName": "05_Logout",
+        "rawStartTime": 1727804938831,
+        "rawEndTime": 1727804938955
     },
     {
         "transactionName": "UC6_Register",
-        "rawStartTime": 1727534284182,
-        "rawEndTime": 1727534284820
+        "rawStartTime": 1727804938186,
+        "rawEndTime": 1727804938971
     }
 ]
