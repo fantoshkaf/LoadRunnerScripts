@@ -1,0 +1,11 @@
+[t20]
+FileName1=t20.htm
+URL1=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_17.xml
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
