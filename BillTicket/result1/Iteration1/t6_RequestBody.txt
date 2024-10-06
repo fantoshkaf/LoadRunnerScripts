@@ -1,4 +1,0 @@
-"firstName=John&lastName=Doe&address1=123+Elm+St&address2=New+York&pass1=John+Doe&creditCard=41"
-"11111111111111&expDate=12%2F26&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&out"
-"boundFlight=941%3B238%3B10%2F06%2F2024&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifi"
-"elds=saveCC&buyFlights.x=62&buyFlights.y=9"

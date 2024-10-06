@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "open_web_tours",
+        "rawStartTime": 1728219586253,
+        "rawEndTime": 1728219586470
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1728219586488,
+        "rawEndTime": 1728219586655
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1728219586672,
+        "rawEndTime": 1728219586778
+    },
+    {
+        "transactionName": "UC1_LogInOut",
+        "rawStartTime": 1728219586238,
+        "rawEndTime": 1728219586793
+    }
+]

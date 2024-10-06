@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Anton\Documents\VuGen\Scripts\BillTicket
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\anton\documents\vugen\scripts\billticket\\logfile.log
-c:\users\anton\documents\vugen\scripts\billticket\\combined_BillTicket.c
-c:\users\anton\documents\vugen\scripts\billticket\\pre_cci.c

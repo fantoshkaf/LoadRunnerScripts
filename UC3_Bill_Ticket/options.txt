@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Anton\Documents\VuGen\Scripts\UC3_Bill_Ticket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\anton\documents\vugen\scripts\uc3_bill_ticket\\logfile.log
+c:\users\anton\documents\vugen\scripts\uc3_bill_ticket\\combined_BillTicket.c
+c:\users\anton\documents\vugen\scripts\uc3_bill_ticket\\pre_cci.c

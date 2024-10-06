@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Zurich&departDate=10%2F06%2F2024&arrive=Paris&returnDate=%7BretDate%7"
-"D&numPassengers=1&seatPref=Window&seatType=First&.cgifields=roundtrip&.cgifields=seatType&.cgi"
-"fields=seatPref&findFlights.x=83&findFlights.y=16"

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Anton\Documents\VuGen\Scripts\UC2_Search_Flight
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\anton\documents\vugen\scripts\uc2_search_flight\\logfile.log
+c:\users\anton\documents\vugen\scripts\uc2_search_flight\\combined_SearchTicket.c
+c:\users\anton\documents\vugen\scripts\uc2_search_flight\\pre_cci.c
